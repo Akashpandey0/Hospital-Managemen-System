@@ -1,0 +1,38 @@
+# Maven build output
+**/target/
+**/*.jar
+**/*.war
+**/*.class
+
+# Maven wrapper & generated files
+.mvn/
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+**/.gitattributes
+
+# Node modules (React/Vite frontend)
+**/node_modules/
+Frontend/hms/dist/
+
+# Environment & secrets
+**/*.env
+**/application-local.properties
+**/application-secret.properties
+
+# IDE
+.idea/
+**/*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+**/*.log
+**/logs/
+
+# OS
+.DS_Store
+Thumbs.db
